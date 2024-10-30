@@ -77,7 +77,7 @@ function App() {
             icon={colorMode === 'light' ? <FaMoon /> : <FaSun />}
             onClick={toggleColorMode}
             borderRadius="none"
-            height="38px"
+            h="5vh"
           />
           <Tooltip hasArrow placement='bottom-start' label="Clean the code">
             <IconButton
@@ -85,7 +85,7 @@ function App() {
               icon={<FaEraser />}
               onClick={handleClear}
               borderRadius="none"
-              height="38px"
+              h="5vh"
             />
           </Tooltip>
         </Box>
